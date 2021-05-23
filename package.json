@@ -1,0 +1,41 @@
+{
+  "name": "blog-app-js",
+  "version": "1.0.0",
+  "description": "blog js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development",
+    "start": "webpack serve --mode=development --open",
+    "open": "webpack serve --open",
+    "webpack-cli": "webpack-dev-server --mode=development --open",
+    "serve": "webpack serve --config config/webpack.dev.js --progress",
+    "serve-dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js8dev/BlogApp.git"
+  },
+  "keywords": [
+    "js",
+    "blog",
+    "javascript"
+  ],
+  "author": "Larin Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js8dev/BlogApp/issues"
+  },
+  "homepage": "https://github.com/js8dev/BlogApp#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0"
+  }
+}
