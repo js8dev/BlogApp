@@ -1,41 +1,31 @@
 {
-  "name": "blog-app-js",
+  "name": "blog-app",
   "version": "1.0.0",
-  "description": "blog js",
+  "description": "js blog",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode=production",
-    "dev": "webpack --mode=development",
-    "start": "webpack serve --mode=development --open",
-    "open": "webpack serve --open",
-    "webpack-cli": "webpack-dev-server --mode=development --open",
-    "serve": "webpack serve --config config/webpack.dev.js --progress",
-    "serve-dev": "webpack serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/js8dev/BlogApp.git"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open"
   },
   "keywords": [
     "js",
     "blog",
     "javascript"
   ],
-  "author": "Larin Denis",
+  "author": "Denis Larin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/js8dev/BlogApp/issues"
-  },
-  "homepage": "https://github.com/js8dev/BlogApp#readme",
   "devDependencies": {
-    "html-webpack-plugin": "^5.3.1",
-    "webpack": "^5.37.1",
-    "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "fsevents": "^2.3.2",
-    "resolve-url": "^0.2.1",
-    "urix": "^0.1.0"
+    "@babel/polyfill": "^7.2.5"
   }
 }
