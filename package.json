@@ -28,12 +28,17 @@
   },
   "homepage": "https://github.com/js8dev/BlogApp#readme",
   "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
     "html-webpack-plugin": "^5.3.1",
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "fsevents": "^2.3.2",
     "resolve-url": "^0.2.1",
     "urix": "^0.1.0"

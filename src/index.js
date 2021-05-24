@@ -1,1 +1,3 @@
-console.log('Start')
+async function app() {
+    await fetch('bar')
+}
